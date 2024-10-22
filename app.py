@@ -11,6 +11,7 @@ usuarios = {
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
+dmwqkldlkqwmdçk    
 
 class Funcionarios(db.Model):
     id = db.Column(db.Integer, primary_key=True)

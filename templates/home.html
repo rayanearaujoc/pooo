@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<h1>Bem-vindo à DataSphere</h1>
+
+<!-- Botão para cadastrar funcionário -->
+<form action="/add_funcionario" method="get">
+    <button type="submit">Cadastrar Funcionário</button>
+</form>
+
+<!-- Botão para ver os serviços e agendar -->
+<form action="/servicos" method="get">
+    <button type="submit">Agendar Serviços</button>
+</form>
+
+{% endblock %}

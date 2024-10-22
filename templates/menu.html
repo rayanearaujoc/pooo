@@ -1,0 +1,65 @@
+<body class="body-pd">
+    <div class="l-navbar" id="navbar">
+        <nav class="nav">
+            <div>
+                <div class="nav__list">
+                <div class="nav__brand">
+                    <ion-icon name="menu-outline" class="nav__toggle" id="nav-toggle"></ion-icon>
+                </div>
+                    <a href="#" class="nav__link active">
+                        <ion-icon name="bar-chart-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Dashboard</span>
+                    </a>
+                    <div  class="nav__link collapse">
+                        <ion-icon name="construct-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Serviços</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Serviços</a>
+                            <a href="#" class="collapse__sublink">Planos</a>
+                            <a href="#" class="collapse__sublink">Contratos</a>
+                        </ul>
+                    </div>
+
+                    <div  class="nav__link collapse">
+                        <ion-icon name="construct-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Administração</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Departamentos</a>
+                        </ul>
+                    </div>
+
+                    <div class="nav__link collapse">
+                        <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Pessoas</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Funcionários</a>
+                        </ul>
+                    </div>
+                    <div class="nav__link collapse">
+                        <ion-icon name="people-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Entidades Externas</span>
+
+                        <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>
+
+                        <ul class="collapse__menu">
+                            <a href="#" class="collapse__sublink">Empresa Cliente</a>
+                            <a href="#" class="collapse__sublink">Empresa Parceira</a>
+                        </ul>
+                    </div>
+                    <a href="{{ url_for('logout') }}" class="nav__link">
+                        <ion-icon name="log-out-outline" class="nav__icon"></ion-icon>
+                        <span class="nav__name">Log Out</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
